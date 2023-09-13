@@ -3,12 +3,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    background-color: $usYellow;
+    padding: .8rem;
+    background-color:#101c31e8;
     position: fixed;
     width: 100%;
     top: 0;
     z-index:2;
+    color: white;
     
 
     img{
@@ -21,8 +22,8 @@
         padding: .5rem;
         font-size: 1.2rem;
         &:hover{
-            background-color: black;
-            color: $usYellow;
+            background-color:$usYellow;
+            color: black;
             border-radius: 10px;
         }
 
