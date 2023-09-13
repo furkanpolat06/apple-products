@@ -134,7 +134,7 @@ const data = [
       price: 179,
       description: "A streaming device that delivers 4K HDR content and gaming.",
       category: "entertainment",
-      image: "https://www.apple.com/v/apple-tv-4k/l/images/overview/hero/hero__dkttwyy2o6ua_large.jpg",
+      image: "https://www.apple.com/newsroom/images/product/tv/standard/Apple-TV-4K-hero-221018_big.jpg.large.jpg",
     },
     {
       id: 21,
@@ -154,15 +154,7 @@ const data = [
       category: "accessory",
       image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MU8F2?wid=2000&hei=2000&fmt=jpeg&qlt=90&.v=1540596407165",
     },
-    {
-      id: 23,
-      name: "MacBook Air",
-      releaseYear: 2020,
-      price: 999,
-      description: "A lightweight laptop with M1 chip and long battery life.",
-      category: "laptop",
-      image: "https://www.apple.com/v/macbook-air/l/images/overview/hero/hero__dvy7zaxgt8k6_large.jpg",
-    },
+    
     {
       id: 24,
       name: "Apple One",
@@ -197,7 +189,7 @@ const data = [
       price: 199,
       description: "An extended warranty and support service for Apple products.",
       category: "service",
-      image: "https://www.apple.com/v/apple-care/l/images/overview/hero/hero__dqg0https://www.apple.com/support/professional/shared/images/open_graph_logo.png?202302240304"
+      image: "https://www.apple.com/support/professional/shared/images/open_graph_logo.png?202302240304"
     }
     ];
     export default data;

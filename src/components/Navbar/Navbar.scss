@@ -1,0 +1,30 @@
+@import "../../scss/variables";
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: $usYellow;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index:2;
+    
+
+    img{
+        width: 100px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        margin:0 1rem;
+        padding: .5rem;
+        font-size: 1.2rem;
+        &:hover{
+            background-color: black;
+            color: $usYellow;
+            border-radius: 10px;
+        }
+
+    }
+}
