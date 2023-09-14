@@ -1,13 +1,17 @@
 @import "./scss/mixins";
 @import "./scss/reset";
-@import "./scss/variables";
+@import  "./scss/variables";
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Roboto:wght@900&display=swap');
-
 body{
+    font-family: 'Roboto', sans-serif;
+    // background-image: $backgroundImage;
+
+    height: 100vh;
+    background-attachment: fixed;
+  }
+  
+  p{
+     font-family:'Frank Ruhl Libre', serif;
     
-    font-family: 'Frank Ruhl Libre', serif;
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgb(11, 84, 241) 0%, rgb(26, 26, 117) 44%, rgba(233,233,233,1) 100%, rgba(233,233,233,1) 100%);;
-
-
-}
+    color: white;
+  }

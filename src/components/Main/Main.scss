@@ -11,23 +11,20 @@
         height: 350px;
         position: relative;
         overflow: hidden;
-        background-color: white;
-        border-radius: 12px;
         &:hover .card-over {
             transform: translateY(0%);
         }
         &:hover img{
             opacity: 1;
-            cursor: pointer;
         }
     }
 
-    .name{
+    .title{
         position: absolute;
         top: 0;
         left: 0;
         background-color: rgba(0,0,0,0.8);
-        color: $usYellow;
+        color: $cardNavBgColor;
         padding: 1rem;
         border-radius: 10px 20px 20px 20px;
         z-index: 2;
@@ -40,7 +37,7 @@
         right: 0%;
         
         background-color: rgba(0,0,0,0.8);
-        color:$usYellow;
+        color:$cardNavBgColor;
         padding: 1rem;
         font-size: .9rem;
         border-radius: 10px;
@@ -49,8 +46,7 @@
     img{
         width: 500px;
         height: 350px;
-        object-fit:contain;
-        background-attachment: fixed;
+        object-fit: contain;
         border-radius: 10px;
         opacity: 0.5;
     }

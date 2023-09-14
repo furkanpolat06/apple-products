@@ -1,9 +1,9 @@
-import "./Header.scss"
+import './Header.scss';
 
 const Header = () => {
   return (
     <div className='header'>
-        Apple Products
+        <span className='text-shadow'> Apple Products</span>
     </div>
   )
 }
