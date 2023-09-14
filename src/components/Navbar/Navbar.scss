@@ -17,12 +17,13 @@
 
     .links{
         display: flex;
-        font-size: 1.5rem;
-        justify-content: flex-end;
+        font-size: 1.2rem;
+        justify-content: center;
         gap: 2%;
     }
     a{
         color: $secondaryColor;
+        opacity: .9;
         text-decoration: none;
         text-transform: uppercase;
         padding: 0.5rem;
@@ -31,14 +32,15 @@
         &:hover{
             background-color: $secondaryColor;
             color: $cardNavBgColor;
+            cursor: pointer;
         }
     }
 
     img{
-        width: 150px;
+        width:150px;
         height: 100px;
         margin-top: 1rem;
-        margin-right: 3rem;
+        margin-right: 2rem;
        
     
     }

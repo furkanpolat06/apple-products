@@ -182,14 +182,14 @@ const data = [
       category: "service",
       image: "https://www.apple.com/v/apple-music/x/images/shared/og__ckjrh2mu8b2a_image.png",
     },
-    {
-      id: 27,
-      name: "AppleCare+",
-      releaseYear: null,
-      price: 199,
-      description: "An extended warranty and support service for Apple products.",
-      category: "service",
-      image: "https://www.apple.com/support/professional/shared/images/open_graph_logo.png?202302240304"
-    }
+    // {
+    //   id: 27,
+    //   name: "AppleCare+",
+    //   releaseYear: null,
+    //   price: 199,
+    //   description: "An extended warranty and support service for Apple products.",
+    //   category: "service",
+    //   image: "https://www.apple.com/support/professional/shared/images/open_graph_logo.png?202302240304"
+    // }
     ];
     export default data;
