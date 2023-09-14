@@ -11,6 +11,8 @@
         height: 300px;
         position: relative;
         overflow: hidden;
+        box-shadow: 5px 5px 15px 5px  rgba(0, 0, 0, 0.219);
+        border-radius: 10px;
         &:hover .card-over {
             transform: translateY(0%);
         }
@@ -20,27 +22,27 @@
         }
     }
 
-    .title{
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: rgba(0,0,0,0.8);
-        color: $cardNavBgColor;
-        padding: 1rem;
-        border-radius: 10px 20px 20px 20px;
-        z-index: 2;
+    // .name{
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     background-color: rgba(0,0,0,0.8);
+    //     color: $cardNavBgColor;
+    //     padding: 1rem;
+    //     border-radius: 10px 20px 20px 20px;
+    //     z-index: 2;
 
-    }
+    // }
     .price{
         position: absolute;
         top: 0%;
         right: 0%;
         
-        background-color: rgba(0,0,0,0.8);
+        background-color: rgba(0, 0, 0, 0.082);
         color:$secondaryColor;
         padding: 1rem;
         font-size: 1.2rem;
-        border-radius: 10px;
+        border-radius: 10px 0  10px 0 ; 
         z-index: 2;
     }
     img{

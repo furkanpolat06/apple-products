@@ -192,4 +192,8 @@ const data = [
     //   image: "https://www.apple.com/support/professional/shared/images/open_graph_logo.png?202302240304"
     // }
     ];
+    data.forEach((product) => {
+      product.title = `${product.name} (${product.releaseYear})`;
+    });
+    
     export default data;
