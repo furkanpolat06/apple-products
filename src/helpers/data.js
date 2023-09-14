@@ -87,7 +87,7 @@ const data = [
       name: "AirPods Pro",
       releaseYear: 2019,
       price: 249,
-      description: "Premium wireless earbuds with active noise cancellation.",
+      description: " AirPods Pro, released in 2019, are premium wireless earbuds with active noise cancellation. They provide an immersive audio experience and are perfect for those who prioritize sound quality and comfort.",
       category: "audio",
       image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1632861342000",
     },
