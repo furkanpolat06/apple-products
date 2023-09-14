@@ -2,9 +2,16 @@ import logo from "../../helpers/logo.png";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./Navbar.scss";
-const MyNavbar = () => {
+import { useState } from "react";
+
+const MyNavbar = ({ data, setSelectedCategory}) => {
+  
+  const handleCategoryFilter = (category) => {
+    setSelectedCategory(category);
+    
+ }
+
   return (
     <Navbar bg="dark" data-bs-theme="dark" expand="lg " className="bg-body-tertiary">
       <Container>
@@ -13,7 +20,7 @@ const MyNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto w-25">
           <Nav.Link href="#all">All</Nav.Link>
-            <Nav.Link href="#iphone">Iphone</Nav.Link>
+            <Nav.Link ><button onClick={() => handleCategoryFilter("smartphone")}>Iphone</button> </Nav.Link>
             <Nav.Link  href="#macbook">Macbook</Nav.Link>
             <Nav.Link href="#ipad">Ipad</Nav.Link>
             <Nav.Link href="#others">Others</Nav.Link>
