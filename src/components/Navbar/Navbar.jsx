@@ -1,11 +1,38 @@
 import logo from "../../helpers/logo.png";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./Navbar.scss";
-const Navbar = () => {
+const MyNavbar = () => {
   return (
-    <div className="navbar">
+    <Navbar bg="dark" data-bs-theme="dark" expand="lg " className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand ><img src={logo} alt="apple.logo" /></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto w-25">
+          <Nav.Link href="#all">All</Nav.Link>
+            <Nav.Link href="#iphone">Iphone</Nav.Link>
+            <Nav.Link  href="#macbook">Macbook</Nav.Link>
+            <Nav.Link href="#ipad">Ipad</Nav.Link>
+            <Nav.Link href="#others">Others</Nav.Link>
+            
+            
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+
+
+  );
+};
+export default MyNavbar;
+
+{/* <div className="navbar">
       
       <div className="logo">
-        <img src={logo} alt="horoscope" />
+        <img src={logo} alt="apple.logo" />
       </div>
       <div className="links">
       <a href="#all">All </a>
@@ -19,7 +46,4 @@ const Navbar = () => {
         <img src={logo} alt="horoscope" />
       </div>
 
-    </div>
-  );
-};
-export default Navbar;
+    </div> */}

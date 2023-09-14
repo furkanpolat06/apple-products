@@ -1,21 +1,27 @@
-import React from 'react'
+import { useState } from "react";
 
 const Card = (item) => {
+  const [show, setShow] = useState(true);
+  const handleClick=()=>{
+    setShow(!show)
+  }
+  console.log(show);
   return (
-    <div className='cards'>
-        {/* <div className='title'>
-        <h1>{item.name}</h1>
-
-        </div> */}
-        <div className="price">
-            ${item.price}
+    <>
+      {show ? (
+        <div onClick={handleClick} className="cards">
+          <div className="price">${item.price}</div>
+          <img src={item.image} alt="" />
+          <div className="card-over">
+            {item.name} 
+          </div>
         </div>
-        
-        <img src={item.image} alt="" />
-        <div className='card-over'>{item.name} ({item.releaseYear})</div>
-    </div>
+      ) : (
+        // <div onClick={()=>setShow(true)}  className="cards">{item.description}</div>
+        <div onClick={handleClick}  className="cards p-4 ">{item.description} <div className="card-over">{item.name} ({item.releaseYear})</div></div>
+      )}
+    </>
+  );
+};
 
-  )
-}
-
-export default Card
+export default Card;

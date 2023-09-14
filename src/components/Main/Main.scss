@@ -1,11 +1,19 @@
 @import "../../scss/variables";
 
+.container{
+    .forms{
+        max-width: 600px;
+        margin: 1rem auto;
+
+    }
+ 
+}
 .card-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 2rem;
- 
+    
     .cards{
         width: 400px;
         height: 300px;
@@ -16,7 +24,7 @@
         &:hover .card-over {
             transform: translateY(0%);
         }
-        &:hover img{
+        &:hover{
             opacity: 1;
             cursor: pointer;
         }
