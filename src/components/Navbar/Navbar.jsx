@@ -11,19 +11,20 @@ const MyNavbar = ({ data, setSelectedCategory}) => {
     setSelectedCategory(category);
     
  }
+const otherCategories = ["headphones", "accessories", "wearables"];
 
   return (
     <Navbar bg="dark" data-bs-theme="dark" expand="lg " className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand ><img src={logo} alt="apple.logo" /></Navbar.Brand>
+        <Navbar.Brand ><a href="https://www.apple.com/" target="blank"><img src={logo} alt="apple.logo" /></a></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto w-25">
-          <Nav.Link href="#all">All</Nav.Link>
+          <Nav.Link ><button onClick={() => handleCategoryFilter("")}>All</button> </Nav.Link>
             <Nav.Link ><button onClick={() => handleCategoryFilter("smartphone")}>Iphone</button> </Nav.Link>
-            <Nav.Link  href="#macbook">Macbook</Nav.Link>
-            <Nav.Link href="#ipad">Ipad</Nav.Link>
-            <Nav.Link href="#others">Others</Nav.Link>
+            <Nav.Link ><button onClick={() => handleCategoryFilter("laptop")}>Mac</button> </Nav.Link>
+            <Nav.Link ><button onClick={() => handleCategoryFilter("tablet")}>Ipad</button> </Nav.Link>
+            <Nav.Link><button onClick={() => handleCategoryFilter("others")}>Others</button></Nav.Link>
             
             
           </Nav>

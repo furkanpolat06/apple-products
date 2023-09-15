@@ -18,7 +18,7 @@ const Card = (item) => {
         </div>
       ) : (
         // <div onClick={()=>setShow(true)}  className="cards">{item.description}</div>
-        <div onClick={handleClick} id="togglePage"  className="cards p-4 ">{item.description} <div className="card-over">{item.category} ({new Date().getFullYear()}/{new Date().getMonth()+1}/{new Date().getDate()})</div></div>
+        <div onClick={handleClick} id="togglePage"  className="cards p-4 ">{item.description} <div className="card-over">{item.name} ({item.releaseYear})</div></div>
       )}
     </>
   );

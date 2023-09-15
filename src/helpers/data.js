@@ -79,7 +79,7 @@ const data = [
       releaseYear: 2023,
       price: 399,
       description: "The Apple Watch Series 8, launched in 2023, offers a larger display and advanced health features. It's the latest in smartwatch technology, ideal for fitness enthusiasts and individuals who want to stay connected on the go.",
-      category: "wearable",
+      category: "others",
       image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MP6V3ref_VW_34FR+watch-41-stainless-silver-cell-8s_VW_34FR_WF_CO_GEO_TR?wid=750&hei=712&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1683226539556",
     },
     {
@@ -88,7 +88,7 @@ const data = [
       releaseYear: 2019,
       price: 249,
       description: " AirPods Pro, released in 2019, are premium wireless earbuds with active noise cancellation. They provide an immersive audio experience and are perfect for those who prioritize sound quality and comfort.",
-      category: "audio",
+      category: "others",
       image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1632861342000",
     },
     {
@@ -97,7 +97,7 @@ const data = [
       releaseYear: 2021,
       price: 1299,
       description: "A sleek and powerful all-in-one desktop computer with M1 chip.",
-      category: "desktop",
+      category: "laptop",
       image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac-24-blue-selection-hero-202104?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1617492405000",
     },
     {
@@ -115,7 +115,7 @@ const data = [
       releaseYear: 2020,
       price: 699,
       description: "A compact desktop computer with impressive performance.",
-      category: "desktop",
+      category: "laptop",
       image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mac-mini-hero-202301_FMT_WHH?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1671503802341",
     },
     {
@@ -133,7 +133,7 @@ const data = [
       releaseYear: 2021,
       price: 179,
       description: "A streaming device that delivers 4K HDR content and gaming.",
-      category: "entertainment",
+      category: "others",
       image: "https://www.apple.com/newsroom/images/product/tv/standard/Apple-TV-4K-hero-221018_big.jpg.large.jpg",
     },
     {
@@ -142,7 +142,7 @@ const data = [
       releaseYear: 2021,
       price: 149,
       description: "An advanced keyboard with trackpad for iPad and Mac.",
-      category: "accessory",
+      category: "others",
       image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MK2A3TQ_AV3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1628009997000",
     },
     {
@@ -151,7 +151,7 @@ const data = [
       releaseYear: 2018,
       price: 129,
       description: "A stylus for precise drawing and note-taking on iPad Pro.",
-      category: "accessory",
+      category: "others",
       image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MU8F2?wid=2000&hei=2000&fmt=jpeg&qlt=90&.v=1540596407165",
     },
     
@@ -161,7 +161,7 @@ const data = [
       releaseYear: 2020,
       price: 14.95,
       description: "A subscription bundle including Apple Music, TV+, Arcade, and more.",
-      category: "service",
+      category: "others",
       image: "https://www.apple.com/v/apple-one/d/images/meta/og__diu4z5hyr8ia_overview.png",
     },
     {
@@ -170,7 +170,7 @@ const data = [
       releaseYear: 2021,
       price: 29,
       description: "A small tracking device to keep tabs on your belongings.",
-      category: "accessory",
+      category: "others",
       image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airtag-single-select-202104_FMT_WHH?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1617761673000",
     },
     {
@@ -179,7 +179,7 @@ const data = [
       releaseYear: 2015,
       price: 9.99,
       description: "A music streaming service with a vast catalog of songs.",
-      category: "service",
+      category: "others",
       image: "https://www.apple.com/v/apple-music/x/images/shared/og__ckjrh2mu8b2a_image.png",
     },
     // {
