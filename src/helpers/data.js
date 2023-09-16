@@ -71,7 +71,34 @@ const data = [
         category: "tablet",
         image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-air-select-wifi-spacegray-202203?wid=940&hei=1112&fmt=png-alpha&.v=1645066742664",
       },
-    
+      {
+        id: 9,
+        name: "iPhone 15",
+        releaseYear: 2024,
+        price: 1099,
+        description: "The iPhone 15, introduced in 2024, features cutting-edge innovations and a stunning display. It's perfect for early adopters of new technology.",
+        category: "smartphone",
+        image: "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-hero-geo-230912_inline.jpg.large.jpg",
+      },
+      
+      {
+        id: 11,
+        name: "iPhone SE",
+        releaseYear: 2020,
+        price: 399,
+        description: "The iPhone SE, introduced in 2020, combines the iPhone 8 design with modern internals. It's a budget-friendly choice for Apple fans.",
+        category: "smartphone",
+        image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-se-finish-select-202207-starlight?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1655316263356",
+      },
+      {
+        id: 12,
+        name: "iPhone 12",
+        releaseYear: 2020,
+        price: 799,
+        description: "The iPhone 12, introduced in 2020, offers 5G connectivity and a Super Retina XDR display. It's ideal for media consumption.",
+        category: "smartphone",
+        image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-finish-select-202207-blue?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1662149977576",
+      },
 
     {
       id: 14,
