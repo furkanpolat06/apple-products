@@ -58,7 +58,11 @@
         height: 300px;
         object-fit: contain;
         border-radius: 10px;
-        opacity: 0.7;
+        opacity: 0.85;
+        &:hover{
+            opacity: 1;
+            transition: .5s;
+        }
     }
     .card-over{
         width: 400px;
@@ -73,14 +77,23 @@
         transform: translateY(100%);
         transition: transform 0.7s;
         text-align: center;
-
-        
         
 
     }
 }
-#togglePage{
-    background-color: rgba(0, 0, 0, 0.849) !important;
-    color: rgba(255, 255, 255, 0.897);
-    font-size: large;
-}
+#togglePage {
+    
+    opacity: 0.85; 
+    color: rgb(255, 255, 255); /* Metin rengi */
+    background-size: cover;
+    background-color:rgba(0, 0, 0, 0.671);
+    padding: 2rem;
+    font-size: large;}
+  #bcg-image{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/977/1013/277/apple-inc-logos-black-background-1680x1050-technology-apple-hd-art-wallpaper-preview.jpg") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+  }
+  
