@@ -30,17 +30,7 @@
         }
     }
 
-    // .name{
-    //     position: absolute;
-    //     top: 0;
-    //     left: 0;
-    //     background-color: rgba(0,0,0,0.8);
-    //     color: $cardNavBgColor;
-    //     padding: 1rem;
-    //     border-radius: 10px 20px 20px 20px;
-    //     z-index: 2;
-
-    // }
+   
     .price{
         position: absolute;
         top: 0%;
@@ -48,7 +38,7 @@
         
         background-color: rgba(0, 0, 0, 0.082);
         color:$secondaryColor;
-        padding: 1rem;
+        padding: .7rem .9rem;
         font-size: 1.2rem;
         border-radius: 10px 0  10px 0 ; 
         z-index: 2;
@@ -58,7 +48,7 @@
         height: 300px;
         object-fit: contain;
         border-radius: 10px;
-        opacity: 0.85;
+        opacity: 0.9;
         &:hover{
             opacity: 1;
             transition: .5s;
@@ -82,17 +72,19 @@
     }
 }
 #togglePage {
+    width: 400px;
+    height: 300px;
     
-    opacity: 0.85; 
-    color: rgb(255, 255, 255); /* Metin rengi */
-    background-size: cover;
-    background-color:rgba(0, 0, 0, 0.671);
+    opacity: 0.8; 
+    color: rgb(255, 255, 255); 
+    background-color:rgba(0, 0, 0, 0.795);
     padding: 2rem;
     font-size: large;}
   #bcg-image{
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/977/1013/277/apple-inc-logos-black-background-1680x1050-technology-apple-hd-art-wallpaper-preview.jpg") !important;
+    background-image: url("https://images.unsplash.com/photo-1621768216002-5ac171876625?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXBwbGUlMjBpbmN8ZW58MHx8MHx8fDA%3D&w=1000&q=80") !important;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     
 
   }
