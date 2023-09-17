@@ -8,16 +8,16 @@ const Footer = () => {
   return (
     <>
       {/*! *********FOOTER *******/}
-      <footer id='footer' className="bg-dark text-center text-white p-2">
-        <div className="mt-2 fa-2x">
+      <footer id='footer' className="bg-dark text-center text-white p-1">
+        <div className="mt-1 fa-2x">
           
-          <FontAwesomeIcon className="p-2 footer_icons" icon={faInstagram} />
-          <a href="https://www.linkedin.com/in/furkan-emin-polat/" target="_blank"><FontAwesomeIcon className="p-2 footer_icons " icon={faLinkedin} /></a>
-          <FontAwesomeIcon className="p-2 footer_icons" icon={faYoutube} />
-          <a href="https://github.com/furkanpolat06" target="_blank"><FontAwesomeIcon className="p-2   footer_icons" icon={faGithub} /></a>
+          <FontAwesomeIcon className="pe-4 footer_icons" icon={faInstagram} />
+          <a href="https://www.linkedin.com/in/furkan-emin-polat/" target="_blank"><FontAwesomeIcon className=" pe-4 footer_icons " icon={faLinkedin} /></a>
+          <FontAwesomeIcon className=" pe-4  footer_icons" icon={faYoutube} />
+          <a href="https://github.com/furkanpolat06" target="_blank"><FontAwesomeIcon className=" pe-4   footer_icons" icon={faGithub} /></a>
           
         </div>
-        <div id="physio_web" className="pb-3 h6">
+        <div id="physio_web" className="pb-2 h6">
           ©
           <a id='footer_link'
             className=" text-decoration-none"
