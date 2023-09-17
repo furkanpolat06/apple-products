@@ -6,7 +6,7 @@ import { faGithub, faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-
 
 const Footer = () => {
   return (
-    <>
+    <footer>
       {/*! *********FOOTER *******/}
       <footer id='footer' className="bg-dark text-center text-white p-1">
         <div className="mt-1 fa-2x">
@@ -28,7 +28,7 @@ const Footer = () => {
           </a>
         </div>
       </footer>
-    </>
+    </footer>
   );
 }
 
