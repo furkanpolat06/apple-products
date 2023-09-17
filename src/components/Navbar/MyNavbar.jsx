@@ -27,7 +27,7 @@ const MyNavbar = ({ setSelectedCategory }) => {
           </a>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse className="navBtn " id="basic-navbar-nav ">
           <Nav className="me-auto w-25">
             <Nav.Link>
               <button
