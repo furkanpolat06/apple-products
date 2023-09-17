@@ -1,0 +1,25 @@
+@import "../../scss/variables";
+
+#footer{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.footer_icons:hover {
+   color: $secondaryColor;
+   cursor: pointer;
+    
+}
+
+
+a{
+    color: white;
+    :hover{
+        color: $secondaryColor ;
+       cursor: pointer;
+    }
+}
+span:hover{
+    color: $secondaryColor !important ;
+      transition: 1.5s;
+}
