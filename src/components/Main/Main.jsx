@@ -1,8 +1,6 @@
 import "./Main.scss";
-import data from "../../helpers/data";
 import Card from "./Card";
 import Form from "react-bootstrap/Form";
-import { useState } from "react";
 
 const Main = ({setSearch, filteredData}) => {
   
@@ -13,7 +11,7 @@ const Main = ({setSearch, filteredData}) => {
 
 
   return (
-    <div className="container">
+    <div className="container main">
       <Form.Control
         className="forms"
         onChange={handleChange}
