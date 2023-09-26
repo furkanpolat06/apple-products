@@ -22,3 +22,7 @@ This is a simple product showcase website built with React.js and Bootstrap. Use
 - React.js
 - Bootstrap
 - SCSS
+  
+## Screenshots
+
+![apple-products-app3](https://github.com/furkanpolat06/apple-products/assets/118616075/c61f9f5c-3c94-40a8-a650-447af13c5621)
