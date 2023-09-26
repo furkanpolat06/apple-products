@@ -1,4 +1,6 @@
-# Product Showcase Website
+# Apple Products Website
+
+https://apple-products-project.netlify.app/
 
 ## Overview
 
